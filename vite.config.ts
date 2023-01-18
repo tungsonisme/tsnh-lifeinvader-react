@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     react(),
     federation({
-      name: 'remote-app',
+      name: 'life-invader',
       filename: 'remoteEntry.js',
       exposes: initializeExposes(),
       shared: ['react'],
