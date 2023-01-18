@@ -11,7 +11,6 @@ export default defineConfig({
       name: 'life-invader',
       filename: 'remoteEntry.js',
       exposes: initializeExposes(),
-      shared: ['react'],
     }),
   ],
 })
